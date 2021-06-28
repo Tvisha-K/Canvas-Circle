@@ -15,7 +15,7 @@ colour = "red";
 canvas.addEventListener("mousedown", whenMouseDown);
 
 
-function mouse_click(e) {
+function whenMouseDown(e) {
 
     mouse_event = "mousedown";
 
@@ -53,7 +53,7 @@ function my_mouseleave(e) {
 
 canvas.addEventListener("mousemove", my_mousemove);
 
-function mousemove(e){
+function my_mousemove(e){
 
     current_pos_mouse_x = e.clientX - canvas.offsetLeft;
 
